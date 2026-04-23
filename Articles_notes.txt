@@ -1,1 +1,25 @@
+- Introduction to Recommender Systems: 
+In this paper it is found an overview of recommender systems, what they are, where they are used and a classification of the different types of systems.
+I think that this project should focus on using an Hybrid and Ensemble-Based Recommender System,  since the project exploits diﬀerent sources of input. So Maybe it could be used:
+ -- collaborative filtering, specifically the memory based methods, to predict the user-item combination based on the others user approval
 
+Combined with:
+
+ -- Content-based method to gain knowledge for new items and since they  provide obvious recommendations because of the use of keywords or content, I think it could be really useful in our case.
+
+However I still don't know whether the Knowledge based system could be applied to our situation.
+
+Another interesting approach could be integrating also context-based systems to take into consideration the contextual information while making recommendations such as time or location.
+
+
+-Hybrid recommendation by incorporating the sentiment of product reviews:
+
+Here it is analysed how recommender systems are used in the e-commerce world and how fundamental they are and how sentimental analysis can be applied in this particular case. In particular section 2.3 highlights sentiment analysis can be incorporated into those systems and how it can be used as a way of extracting relevant information from an item description. 
+The paper mainly talks about some experiments conducted using BERT which is a “new method of pre-training language representations” developed by Google. I think the testing part especially is an interesting example on how to conduct test on the data taken from the datasets.
+
+
+- Sentiment Analysis & Affect Scoring Pipeline:
+  __VADER: This paper describes the development of VADER (Valence Aware Dictionary for
+	sEntiment Reasoning) a lexicon that has been used in social media especially to classify 	texts as well as humans would,  analysing people's opinions, sentiments, evaluations, 		attitudes,
+	and emotions via the computational treatment of subjectivity in text. It was useful to 		understand how words are scored and classified based on their meaning and how the 		lexicon was trained to understand the context in which words were used.
+	VADER will be helpful for quickly processing review texts without requiring heavy model 	training.
