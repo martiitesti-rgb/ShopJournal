@@ -12,3 +12,5 @@ Directory: Evaluation_test
 - **pool_candidates.jsonl**: candidate pool for the offline evaluation. One line per query (15 queries, all within the Grocery and Gourmet Food section), each with `query_id`, `query`, `note_id`, `note_text`, and a `candidates` list (~30 products per query: title, asin, price).
 
 - **labelling.csv**: labelling file for the offline evaluation . It contains the query–candidate pairs drawn from the candidate pool, one row per candidate product. The columns are: `query_id`, `query`, `note_text`, `asin`, `title`, `price`, `label`, `incerto`, `note_labelling`. The `label` column is filled in manually with a relevance judgment on a 0–1–2 scale (0 = not relevant, 1 = partially relevant, 2 = clearly relevant); `incerto` flags uncertain cases; `note_labelling` records a short reason for pairs that were hard to judge. 
+
+- **labelling_log.md**: log that documents the queries that were hard to label and a short reason why
