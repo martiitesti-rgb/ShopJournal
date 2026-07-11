@@ -10,7 +10,7 @@
 
 - `ggf_notes_student_v0.1.jsonl` — the full pool of 200 synthetic user notes (Grocery and Gourmet Food) from which the 15 evaluation notes are sampled.
 
-#### `fase3.1/` — first round: building the test set and initial labels
+#### `fase3.1/`
 - **`Evaluation_TestSet.ipynb`**: builds the evaluation test set for Phase 3. It loads the 15 selected user notes from `ggf_notes_student_v0_1.jsonl`, loads the Amazon Reviews 2023 Grocery and Gourmet Food product catalog, and defines 15 query–note pairs. For each pair it constructs a candidate pool by retrieving catalog items whose titles match keywords from the query and the note's distinctive terms. The notebook exports the pools to `pool_candidates.jsonl` and a labelling sheet to `labelling.csv`.
 
 - **`pool_candidates.jsonl`**: candidate pool for the offline evaluation. One line per query (15 queries, all within the Grocery and Gourmet Food section), each with `query_id`, `query`, `note_id`, `note_text`, and a `candidates` list (~30 products per query: title, asin, price).
@@ -19,7 +19,7 @@
 
 - **`labelling_log.md`**: log that documents the queries that were hard to label and a short reason why
 
-#### `fase3.2/` — second round: real recommender system + blind re-labelling
+#### `fase3.2/`
 - `functions.py` — the actual scoring functions of the recommender: `matchQuery()`, `matchNotes()`, `cueScore()` (checks budget/diet/urgency/gift cues against product title and price), `popularityScore()` (based on average rating), plus `extract_cues()` (same VADER + keyword logic as `extracting_cues.ipynb`) and `score_query()`, which combines everything into 4 scoring variants: `query_only`, `query_notes`, `query_notes_pop`, `query_notes_pop_cue`.
 - `recommender_system.ipynb` — runs the actual system: for each of the 15 queries, computes the top-10 ranking under all 4 scoring variants and exports every ranked result to `system_candidates.csv`.
 - `system_candidates.csv` — 600 rows (15 queries × 4 variants × 10 ranked results), with `source` (which variant), `rank`, and `score` for each candidate.
