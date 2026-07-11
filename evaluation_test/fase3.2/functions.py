@@ -79,12 +79,18 @@ def sum_scores(scores, flag):
 def prefilter_candidates(query_words, note_terms, df, max_candidates=200):
     all_keywords = list(set(query_words + note_terms))
     if not all_keywords:
-        return df.iloc[0:0]  # nessuna parola chiave, nessun candidato
-    
-    mask = df["title"].str.lower().str.contains(
-        "|".join(map(re.escape, all_keywords)), na=False
-    )
-    return df[mask].head(max_candidates).copy()
+        return df.iloc[0:0]
+
+    mask = df["title"].str.lower().str.contains("|".join(map(re.escape, all_keywords)), na=False)
+    matches = df[mask].copy()
+
+    def count_matches(title):
+        t = title.lower()
+        return sum(1 for kw in all_keywords if kw in t)
+
+    matches["match_count"] = matches["title"].apply(count_matches)
+    matches = matches.sort_values("match_count", ascending=False).head(max_candidates)
+    return matches.drop(columns=["match_count"])
 
 from nltk.sentiment.vader import SentimentIntensityAnalyzer
 

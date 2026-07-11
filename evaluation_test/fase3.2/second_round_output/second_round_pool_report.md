@@ -7,26 +7,26 @@ This report describes a mechanical pool-preparation step only.
 - output directory: `second_round_output`
 - qrels row count: **450**
 - candidate row count: **600**
-- already-labelled candidate count: **0**
-- new unjudged candidate count: **271**
+- already-labelled candidate count: **409**
+- new unjudged candidate count: **112**
 
 ## Per-query new candidate counts
 
-- `q01`: 16
-- `q02`: 12
-- `q03`: 17
-- `q04`: 17
-- `q05`: 25
-- `q06`: 18
-- `q07`: 15
-- `q08`: 19
-- `q09`: 17
-- `q10`: 28
-- `q11`: 20
-- `q12`: 16
-- `q13`: 20
-- `q14`: 17
-- `q15`: 14
+- `q01`: 6
+- `q02`: 6
+- `q03`: 12
+- `q04`: 5
+- `q05`: 14
+- `q06`: 2
+- `q07`: 2
+- `q08`: 9
+- `q09`: 12
+- `q10`: 9
+- `q11`: 8
+- `q12`: 9
+- `q13`: 13
+- `q14`: 2
+- `q15`: 3
 
 ## Method boundary
 
