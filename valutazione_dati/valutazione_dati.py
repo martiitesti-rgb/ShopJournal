@@ -152,13 +152,7 @@ def main() :
             print(asin, qrels_lookup["q09"].get(asin, "NON GIUDICATO"))     
 
      
-     for query_id in sorted(qrels_lookup.keys()):
-         n_rilevanti = sum(1 for v in qrels_lookup[query_id].values() if v >= 1)
-         if n_rilevanti == 0:
-          print(query_id, "-> ATTENZIONE: nessun prodotto rilevante nel pool, denominatore Recall = 0")
-
-     casi_critici = risultati_df[(risultati_df["Recall@10"] == 0.0) | (risultati_df["NDCG@10"] == 0.0)]
-     print(casi_critici)
+    
 
 if __name__ == "__main__":
     main()
