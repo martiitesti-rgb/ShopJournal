@@ -1,4 +1,5 @@
 ## `Repository content`
+- **`shopjournal_app.ipynb`**: web app demo of shopJoural made with streamline
 - **`Diary_ShopJournal.ipynb`**: it contains the project's throughout evolution
 - **`Articles_notes.ipynb`**: here there are some useful topics found in the research papers
 
