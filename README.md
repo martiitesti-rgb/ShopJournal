@@ -1,6 +1,6 @@
 # ShopJournal
 
-Affect-Aware Text-Driven Shopping Recommender Prototype — bachelor's thesis project.
+Cue-Aware Text-Driven Shopping Recommender Prototype — bachelor's thesis project.
 
 ShopJournal combines a user's current search query with a mechanically generated
 note (derived from purchase history) plus intent cues (keyword-based detection of
