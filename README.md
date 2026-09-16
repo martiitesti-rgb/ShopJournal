@@ -82,7 +82,4 @@ protocol above, not the final evaluation).
   - `second_round_source_map_private.csv`
   - `second_round_pool_report.md` — report of the pooling run
 
-## Tools
 
-Python, Jupyter / Google Colab, pandas, VADER (vaderSentiment). CSV delimiter is
-`;` throughout the project. Planned demo: Streamlit (Python-only, local).
