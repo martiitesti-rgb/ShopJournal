@@ -38,7 +38,7 @@ cues-add-value-beyond-notes).
   di un punteggio di compatibilità basato sulle cue (`cueScore`) migliora la qualità
   del ranking rispetto allo stesso sistema di base senza cue?
 
-##V1 CONTENT
+## V1 CONTENT
 ## `evaluation_test/` — pilot evaluation (Phase 3)
 
 Earlier iteration of the evaluation, now a pilot/development set (superseded by the
