@@ -1,0 +1,59 @@
+{
+  "analysis_controller_commit_sha": "8b46cca53db252f22ba9a64f7a822263f01c4e4d",
+  "analysis_output_sha256": "85449903811281aa46fadaf246a845ca7b5b5b14d7032328ad73a8727bf8081a",
+  "bootstrap": {
+    "draws_per_stratum": 4,
+    "numpy_version": "1.26.4",
+    "percentile_method": "linear",
+    "replicates": 10000,
+    "rng": "PCG64",
+    "seed": 20260915,
+    "stratum_order": [
+      "DIET",
+      "GIFT",
+      "URGENCY",
+      "BUDGET",
+      "dual"
+    ]
+  },
+  "frozen_label_sha256": "3e2240796c793917cbc1e87fd268da174a8d9864f966d5f20a86dc23f12c3b57",
+  "interval_statement": "The interval describes uncertainty for the constructed balanced 20-query design, not population effectiveness.",
+  "judgment_universe_statement": "RQ2-v2 uses the judged Base-union-Full top-10 universe.",
+  "method_freeze_sha": "9ab4d415bd41423c8a1fa41b91a06d833e33e675",
+  "metrics": {
+    "ndcg_at_10": {
+      "paired_full_minus_base": {
+        "full_minus_base_mean": 0.30081140426797137,
+        "full_minus_base_median": 0.05525379734128455,
+        "negative_count": 2,
+        "positive_count": 11,
+        "zero_count": 7
+      },
+      "percentile_interval_2_5_97_5": [
+        0.14704192509677733,
+        0.4590615897564671
+      ],
+      "zero_idcg_query_count": 2
+    },
+    "precision_at_10": {
+      "paired_full_minus_base": {
+        "full_minus_base_mean": 0.22000000000000003,
+        "full_minus_base_median": 0.15,
+        "negative_count": 0,
+        "positive_count": 12,
+        "zero_count": 8
+      }
+    }
+  },
+  "population": {
+    "query_count": 20,
+    "stratum_counts": {
+      "BUDGET": 4,
+      "DIET": 4,
+      "GIFT": 4,
+      "URGENCY": 4,
+      "dual": 4
+    }
+  },
+  "recall_statement": "No Recall metric is part of RQ2-v2."
+}

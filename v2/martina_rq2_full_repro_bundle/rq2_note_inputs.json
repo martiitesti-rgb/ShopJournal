@@ -1,0 +1,397 @@
+[
+  {
+    "canonical_note_id": "ggf-note-000120",
+    "distinctive_terms": [
+      "chocolate",
+      "bone",
+      "broth",
+      "covered",
+      "fl"
+    ],
+    "opaque_slot_id": "37d6ecfb716183fa30111206"
+  },
+  {
+    "canonical_note_id": "ggf-note-000176",
+    "distinctive_terms": [
+      "organic",
+      "grass",
+      "fed",
+      "milk",
+      "orange"
+    ],
+    "opaque_slot_id": "3c555d99633f4837cd9a7255"
+  },
+  {
+    "canonical_note_id": "ggf-note-000042",
+    "distinctive_terms": [
+      "turkey",
+      "bags",
+      "brine",
+      "brining",
+      "grade"
+    ],
+    "opaque_slot_id": "9e957f117a24d6efaf5f1c47"
+  },
+  {
+    "canonical_note_id": "ggf-note-000194",
+    "distinctive_terms": [
+      "amazon",
+      "belly",
+      "brand",
+      "fat",
+      "happy"
+    ],
+    "opaque_slot_id": "5d064537386df97f3f5488a4"
+  },
+  {
+    "canonical_note_id": "ggf-note-000055",
+    "distinctive_terms": [
+      "chocolate",
+      "jerky",
+      "milk",
+      "ritter",
+      "sport"
+    ],
+    "opaque_slot_id": "1246fec471b0825b640c5d9e"
+  },
+  {
+    "canonical_note_id": "ggf-note-000116",
+    "distinctive_terms": [],
+    "opaque_slot_id": "138c6e993ca6447d1f4dbf00"
+  },
+  {
+    "canonical_note_id": "ggf-note-000177",
+    "distinctive_terms": [
+      "tea",
+      "black",
+      "leaf",
+      "loose",
+      "organic"
+    ],
+    "opaque_slot_id": "5f8091bf863788569e4b3293"
+  },
+  {
+    "canonical_note_id": "ggf-note-000037",
+    "distinctive_terms": [
+      "coffee",
+      "brew",
+      "raven",
+      "roast",
+      "billy"
+    ],
+    "opaque_slot_id": "734eb69e666bf887e9bd7628"
+  },
+  {
+    "canonical_note_id": "ggf-note-000036",
+    "distinctive_terms": [
+      "coffee",
+      "gluten",
+      "tea",
+      "non",
+      "gmo"
+    ],
+    "opaque_slot_id": "573cf47f472be6b92c9b19ce"
+  },
+  {
+    "canonical_note_id": "ggf-note-000110",
+    "distinctive_terms": [
+      "sugar"
+    ],
+    "opaque_slot_id": "50e5127cdad11edf2b1926c8"
+  },
+  {
+    "canonical_note_id": "ggf-note-000131",
+    "distinctive_terms": [
+      "peanut",
+      "jam",
+      "spanish",
+      "allegro",
+      "blend"
+    ],
+    "opaque_slot_id": "0c2465f8811c758568bf4495"
+  },
+  {
+    "canonical_note_id": "ggf-note-000156",
+    "distinctive_terms": [
+      "candy",
+      "bags",
+      "holten",
+      "ice",
+      "pickle"
+    ],
+    "opaque_slot_id": "9a4624529dac4fc3c404cb18"
+  },
+  {
+    "canonical_note_id": "ggf-note-000198",
+    "distinctive_terms": [
+      "frontier",
+      "organic",
+      "sugar",
+      "seasoning",
+      "seed"
+    ],
+    "opaque_slot_id": "f3a59f5e810cd1881912f136"
+  },
+  {
+    "canonical_note_id": "ggf-note-000080",
+    "distinctive_terms": [
+      "de",
+      "fresh",
+      "glace",
+      "gold",
+      "hot"
+    ],
+    "opaque_slot_id": "aa333d7440cc14104cd2bbba"
+  },
+  {
+    "canonical_note_id": "ggf-note-000061",
+    "distinctive_terms": [
+      "color",
+      "fruit",
+      "gel",
+      "cake",
+      "candy"
+    ],
+    "opaque_slot_id": "e930ad88936e54c93d838a12"
+  },
+  {
+    "canonical_note_id": "ggf-note-000137",
+    "distinctive_terms": [
+      "flour",
+      "leaf",
+      "tea",
+      "authentic",
+      "baking"
+    ],
+    "opaque_slot_id": "1f3d5e3795433644890691fe"
+  },
+  {
+    "canonical_note_id": "ggf-note-000193",
+    "distinctive_terms": [
+      "cheese",
+      "buttons",
+      "flowers",
+      "real"
+    ],
+    "opaque_slot_id": "0924ae00af39a5468e541134"
+  },
+  {
+    "canonical_note_id": "ggf-note-000020",
+    "distinctive_terms": [],
+    "opaque_slot_id": "f7624944d8ca280e843485ef"
+  },
+  {
+    "canonical_note_id": "ggf-note-000049",
+    "distinctive_terms": [
+      "coffee",
+      "organic"
+    ],
+    "opaque_slot_id": "bee1b0827ddb51e6174ad98f"
+  },
+  {
+    "canonical_note_id": "ggf-note-000030",
+    "distinctive_terms": [
+      "ramen",
+      "low",
+      "noodles",
+      "base",
+      "beef"
+    ],
+    "opaque_slot_id": "2dfeffeafe2bdedc57adb620"
+  },
+  {
+    "canonical_note_id": "ggf-note-000140",
+    "distinctive_terms": [
+      "minis",
+      "butter",
+      "gluten",
+      "good",
+      "kosher"
+    ],
+    "opaque_slot_id": "f8f60c5f543222c81ac1fb2d"
+  },
+  {
+    "canonical_note_id": "ggf-note-000073",
+    "distinctive_terms": [
+      "coffee",
+      "ginger",
+      "organic",
+      "roasted"
+    ],
+    "opaque_slot_id": "e7f00ee795ab81136f42ead5"
+  },
+  {
+    "canonical_note_id": "ggf-note-000097",
+    "distinctive_terms": [
+      "coffee",
+      "manuka",
+      "honey",
+      "new",
+      "non"
+    ],
+    "opaque_slot_id": "a5218c82cd75d679717a3c67"
+  },
+  {
+    "canonical_note_id": "ggf-note-000017",
+    "distinctive_terms": [
+      "organic",
+      "gmo",
+      "non",
+      "coffee",
+      "navitas"
+    ],
+    "opaque_slot_id": "d5dbb3839b764f352dd3a53f"
+  },
+  {
+    "canonical_note_id": "ggf-note-000181",
+    "distinctive_terms": [
+      "organic",
+      "whole",
+      "coffee",
+      "foods",
+      "market"
+    ],
+    "opaque_slot_id": "3c3102a8e2a8dceb17e00206"
+  },
+  {
+    "canonical_note_id": "ggf-note-000096",
+    "distinctive_terms": [
+      "bottles",
+      "coffee",
+      "starbucks",
+      "variety"
+    ],
+    "opaque_slot_id": "758d1bc741adf19b1a30cce6"
+  },
+  {
+    "canonical_note_id": "ggf-note-000175",
+    "distinctive_terms": [
+      "flag",
+      "organic",
+      "cupcake",
+      "everyday",
+      "pieces"
+    ],
+    "opaque_slot_id": "ed3213072a3050bc8a08df7b"
+  },
+  {
+    "canonical_note_id": "ggf-note-000107",
+    "distinctive_terms": [
+      "cereal",
+      "gluten",
+      "grain",
+      "salt"
+    ],
+    "opaque_slot_id": "6166ec1f8450db338eb2d8d2"
+  },
+  {
+    "canonical_note_id": "ggf-note-000169",
+    "distinctive_terms": [
+      "chocolate",
+      "claxton",
+      "milk"
+    ],
+    "opaque_slot_id": "fc6dd729fd5429f0855ac17c"
+  },
+  {
+    "canonical_note_id": "ggf-note-000134",
+    "distinctive_terms": [],
+    "opaque_slot_id": "212276152123b7c9d90f06d7"
+  },
+  {
+    "canonical_note_id": "ggf-note-000147",
+    "distinctive_terms": [
+      "candy",
+      "chocolate",
+      "party",
+      "assorted",
+      "baking"
+    ],
+    "opaque_slot_id": "365205560e711ea95fc43479"
+  },
+  {
+    "canonical_note_id": "ggf-note-000174",
+    "distinctive_terms": [
+      "organic",
+      "bags",
+      "flakes",
+      "jyoti",
+      "superfoods"
+    ],
+    "opaque_slot_id": "f86105e4351ab8d43b2ee618"
+  },
+  {
+    "canonical_note_id": "ggf-note-000155",
+    "distinctive_terms": [
+      "cereal",
+      "snacks",
+      "variety"
+    ],
+    "opaque_slot_id": "5d424b2a6c13bbcd1eaa50cc"
+  },
+  {
+    "canonical_note_id": "ggf-note-000040",
+    "distinctive_terms": [],
+    "opaque_slot_id": "e88b2a5d53d18c3db1fd9962"
+  },
+  {
+    "canonical_note_id": "ggf-note-000066",
+    "distinctive_terms": [
+      "organic",
+      "non",
+      "red",
+      "white"
+    ],
+    "opaque_slot_id": "075e88abf543a0f897582d82"
+  },
+  {
+    "canonical_note_id": "ggf-note-000084",
+    "distinctive_terms": [
+      "bulk",
+      "coffee",
+      "salt"
+    ],
+    "opaque_slot_id": "d67288787865cb225e273faa"
+  },
+  {
+    "canonical_note_id": "ggf-note-000077",
+    "distinctive_terms": [
+      "coffee",
+      "apple",
+      "bags",
+      "chips",
+      "compatible"
+    ],
+    "opaque_slot_id": "e98285c2a7f7fb4a46c092b5"
+  },
+  {
+    "canonical_note_id": "ggf-note-000057",
+    "distinctive_terms": [
+      "beef",
+      "gluten",
+      "juice",
+      "added",
+      "friendly"
+    ],
+    "opaque_slot_id": "1cbaa393ca4480e5ca850af7"
+  },
+  {
+    "canonical_note_id": "ggf-note-000164",
+    "distinctive_terms": [
+      "gluten",
+      "butter",
+      "non",
+      "peanut",
+      "vegan"
+    ],
+    "opaque_slot_id": "556aadf68d918863525b38d9"
+  },
+  {
+    "canonical_note_id": "ggf-note-000065",
+    "distinctive_terms": [
+      "nuts",
+      "raw"
+    ],
+    "opaque_slot_id": "df3447de2445c0d79422ac70"
+  }
+]

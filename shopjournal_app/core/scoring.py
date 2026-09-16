@@ -38,7 +38,7 @@ CUE_PRODUCT_TERMS = {
 }
 
 
-def cueScore(cue_flags, product_title, product_price, budget_threshold=10.0):
+def cueScore(cue_flags, product_title, product_price, compound=0.0, budget_threshold=10.0):
     title_lower = product_title.lower()
     active_cues = []
     for c, active in cue_flags.items():
@@ -57,7 +57,11 @@ def cueScore(cue_flags, product_title, product_price, budget_threshold=10.0):
             if any(term in title_lower for term in CUE_PRODUCT_TERMS[cue]):
                 points += 1
 
-    return points / len(active_cues)
+    base_score = points / len(active_cues)
+    # l'intensita' affettiva (positiva o negativa) rafforza il peso del segnale cue,
+    # cosi' il compound score di VADER non viene piu' calcolato e scartato
+    affect_weight = 1 + abs(compound)
+    return base_score * affect_weight
 
 
 def popularityScore(avg_rating):
@@ -110,6 +114,10 @@ def formatta_prezzo(value):
 def score_query(query_id, query_text, note, df, flags):
     query_words = get_query_words(query_text)
     note_terms = note["distinctive_terms"]
+    # sentiment e' scartato di proposito: e' compound_score discretizzato in 3 bucket,
+    # quindi ridondante ora che compound entra direttamente in cueScore().
+    # keywords resta non utilizzato: potenziale estensione futura per un matching
+    # cue-prodotto piu' granulare (keyword specifica invece del solo flag di categoria).
     compound, sentiment, cue_flags, keywords = extract_cues(query_text, note["note_text"])
 
     candidates = prefilter_candidates(query_words, note_terms, df)
@@ -127,7 +135,7 @@ def score_query(query_id, query_text, note, df, flags):
         scores = {
             "query": matchQuery(query_words, title),
             "notes": matchNotes(note_terms, title),
-            "cue": cueScore(cue_flags, title, price),
+            "cue": cueScore(cue_flags, title, price, compound=compound),
             "popularity": popularityScore(avg_rating),
         }
 

@@ -1,0 +1,207 @@
+{
+  "hash": "SHA-256",
+  "queries": {
+    "075e88abf543a0f897582d82": {
+      "base_top10_ids_sha256": "94a31fb2f65524746ee2e35664e8698f6e2ad048211110471127b9fdd27a340c",
+      "candidate_ids_sha256": "330c5f592556970b87cffd767aaba072c44056c9f527c4b97656b8d8a78b14f0",
+      "full_top10_ids_sha256": "94a31fb2f65524746ee2e35664e8698f6e2ad048211110471127b9fdd27a340c"
+    },
+    "0924ae00af39a5468e541134": {
+      "base_top10_ids_sha256": "785fa45d26e57aa546568aa642c4704a97011093fee678ece2c458ccfe176b1e",
+      "candidate_ids_sha256": "21244bb3fd5f16067e788a749dbbf80d8b992abe11908a65edd3089ffc314f14",
+      "full_top10_ids_sha256": "5b032694705dc38f2e53d0d6ee4de88aed62755066f8f5f127bc2a9cd171466e"
+    },
+    "0c2465f8811c758568bf4495": {
+      "base_top10_ids_sha256": "a377ccaa0093cc3f9118f8a1e30c65162929ba09e82409e9e748e86e4fd3928f",
+      "candidate_ids_sha256": "492d84433a044a082aaf759cab7e3c8c994094b800c5276b350449b026c4a3a2",
+      "full_top10_ids_sha256": "faf462404675d5e724b96adae5bc4f2fea979270c2f1018764224cc8964cfa97"
+    },
+    "1246fec471b0825b640c5d9e": {
+      "base_top10_ids_sha256": "f96c795ee2f6ead6549988000f5588b17b2c2c3d3a9f7d5dfd809faf04a24a57",
+      "candidate_ids_sha256": "be6b174f8123218782dcbb8c97109ce725dbe37f2a2506e27e4580f6d96138a7",
+      "full_top10_ids_sha256": "d5dd16e3a54037a242c02d86000390f15595d0ca6e465e75c9e3d1d84da30c24"
+    },
+    "138c6e993ca6447d1f4dbf00": {
+      "base_top10_ids_sha256": "a7563cfc1c744ae01a5e0797178bea6f8ddedb9bdfc2e69a8f6af82825b26744",
+      "candidate_ids_sha256": "49a043f2a491357ed46644900e853dbd6bb9a8c4f8310111bdd15ea416587886",
+      "full_top10_ids_sha256": "be26b196415f52b9d62548b7e5b61a6c7380a8929619b57097f93d28516d84ae"
+    },
+    "1cbaa393ca4480e5ca850af7": {
+      "base_top10_ids_sha256": "46a8a4522d0a27070f450edc01e7379d0ee9d20b22eb380fca93d71f41c14c8c",
+      "candidate_ids_sha256": "62d508fcf71e819759f5504a1e3960a3141c5e83b44f82448e3da88a994ebf6b",
+      "full_top10_ids_sha256": "46a8a4522d0a27070f450edc01e7379d0ee9d20b22eb380fca93d71f41c14c8c"
+    },
+    "1f3d5e3795433644890691fe": {
+      "base_top10_ids_sha256": "1e80239b9c8831358672963a595bba23f7f4949b34c5fa381c2f42974397e0e2",
+      "candidate_ids_sha256": "a49d8bffadf348e1563a7935eb57755fcd2f868d9f7d2afb4fe152cf7ae95ba5",
+      "full_top10_ids_sha256": "b628a6b051c67d812df8f140028b5beb6133794d1c03b29a8d416a1fd333df7d"
+    },
+    "212276152123b7c9d90f06d7": {
+      "base_top10_ids_sha256": "acd3565dbf0fbea2f22388ed899be10e8edf404ea1682eb61eda3fd570705522",
+      "candidate_ids_sha256": "ed37e16ead400b272597d0bb16f83c04c700f5828426c7963fa525921a30db35",
+      "full_top10_ids_sha256": "acd3565dbf0fbea2f22388ed899be10e8edf404ea1682eb61eda3fd570705522"
+    },
+    "2dfeffeafe2bdedc57adb620": {
+      "base_top10_ids_sha256": "918d0feed48e36d65aad68039e0844f5ef20d940c16e9ca21cf5f59f54df2528",
+      "candidate_ids_sha256": "ee7afe7a7cdd7db3530caa769629ab4074678bcfa948336f3e7fa1b07837b416",
+      "full_top10_ids_sha256": "fe575875f440c10da466e042bf16e1a96179e375c8ce8cbc01112f513b28dec8"
+    },
+    "365205560e711ea95fc43479": {
+      "base_top10_ids_sha256": "85fc3e883be7bfca8a38120a07a20110c709b9678c83ac35f90c2dc3a2d7d7cb",
+      "candidate_ids_sha256": "737f7297d97db6e9df9ba3ddcaaac83f83d023a32e6f8344a996ed6ba836aeb1",
+      "full_top10_ids_sha256": "85fc3e883be7bfca8a38120a07a20110c709b9678c83ac35f90c2dc3a2d7d7cb"
+    },
+    "37d6ecfb716183fa30111206": {
+      "base_top10_ids_sha256": "d6b2c4f80cd7123f6cd729d2d538643217630c994d86be951e03ed399e197ff1",
+      "candidate_ids_sha256": "64e3927c3a53f8dd4589f01547312bcab5c6b98b4d46f700ac73f9da91d8943e",
+      "full_top10_ids_sha256": "74df257a9dc548992526eb92697cea6b7971c22e4e2b533ed3f90fde56b22fe8"
+    },
+    "3c3102a8e2a8dceb17e00206": {
+      "base_top10_ids_sha256": "a8194cfc4d8aae7fd4e528112126c63e44bd94fbc51c82255ad509b3fca21866",
+      "candidate_ids_sha256": "ccd1477e4a47e373c6f8fb75dc672b7e323726b9f73d46c38d0de8313f58cee8",
+      "full_top10_ids_sha256": "b28ece50516aa2ef5a25e5e7a731dc0441e6c11abd25e0889f735119ec6c88d2"
+    },
+    "3c555d99633f4837cd9a7255": {
+      "base_top10_ids_sha256": "c0c57a7ec4cddd7be9c3aa0817c254ec11ac73ebea09638467a61a4311d3a7ae",
+      "candidate_ids_sha256": "8afe5f496532c5fcfcc417974a44a3e8f111467121be0bcc6d177810e221bb76",
+      "full_top10_ids_sha256": "c0c57a7ec4cddd7be9c3aa0817c254ec11ac73ebea09638467a61a4311d3a7ae"
+    },
+    "50e5127cdad11edf2b1926c8": {
+      "base_top10_ids_sha256": "097d42dc15554044895d41650448b41dd5fa7112dc4c3f6e15dc81e75bb86110",
+      "candidate_ids_sha256": "4dcff006af9dc9c6b5c1b78b1fc88d52035681808502bb1f61f9278f965f76e1",
+      "full_top10_ids_sha256": "6f1bcdb7015410ceeb24784a5079bbefb28b4310ba310c74bcfd7eaf50d6b5a5"
+    },
+    "556aadf68d918863525b38d9": {
+      "base_top10_ids_sha256": "ee99b9a9ab86c673df5f8789cd9b44a1ac9c167c7998da87560e16ec7efbaa38",
+      "candidate_ids_sha256": "3435884733fea7a240e218ea81b2ed4fd71a33b498ac2897c60b8ea21d7823ab",
+      "full_top10_ids_sha256": "ee99b9a9ab86c673df5f8789cd9b44a1ac9c167c7998da87560e16ec7efbaa38"
+    },
+    "573cf47f472be6b92c9b19ce": {
+      "base_top10_ids_sha256": "6214adaaa0f27dbf680931f5f621e4e3a16fedd538fbab4f824517ab4b46cc7d",
+      "candidate_ids_sha256": "6c26778e05b6fdc7138f74e2c6edf5a1d1c876c15507dd16806e4fe6f9912790",
+      "full_top10_ids_sha256": "ce4193f0a2865711fdff6ed70c142690a409275ccb76fdefed84df325e1d6c98"
+    },
+    "5d064537386df97f3f5488a4": {
+      "base_top10_ids_sha256": "ed36e7bdce18cb38e5df3ad6a08d6a3e416c47dc525401e7af441fddf65b1f1d",
+      "candidate_ids_sha256": "6bad8cee5b717f06e4a18696cd88c72e0e7b339f2f335241661c6088c40a6806",
+      "full_top10_ids_sha256": "d84f8a691723ea5d8676b627ab2b0c94151b5f5c50efcffb6e62b083c6adee79"
+    },
+    "5d424b2a6c13bbcd1eaa50cc": {
+      "base_top10_ids_sha256": "37b92df2a11e920bc78614b63a6df7bbd8f25fbccff8d9e6e180fd77c5c7f5c5",
+      "candidate_ids_sha256": "8976e5a2deb1872c954cab516e95b9a460de0de3dd3fe455061183235b9a2fe9",
+      "full_top10_ids_sha256": "37b92df2a11e920bc78614b63a6df7bbd8f25fbccff8d9e6e180fd77c5c7f5c5"
+    },
+    "5f8091bf863788569e4b3293": {
+      "base_top10_ids_sha256": "1036c0d0edbebc4c412e09cec0e17193ac6f58eef570626adcb562f0c6f10449",
+      "candidate_ids_sha256": "0976b4a332305eb7eca6d7388783ad7bb8a5668369251ad5ff01faf422910e26",
+      "full_top10_ids_sha256": "0b19a7d86c62d3ecf08662d02a527ded5694c0075021bbb3f24fca691d348730"
+    },
+    "6166ec1f8450db338eb2d8d2": {
+      "base_top10_ids_sha256": "c1ffea29d291906da6d7d3dbb18f0fd9de69a04d00cf77817e1edbd9d69567b7",
+      "candidate_ids_sha256": "879aa77676f8a9667af2306391f86bfba454ff365450dac319a30dbe444ed17d",
+      "full_top10_ids_sha256": "1dceed76dece62b241415ca1d94e738bd4a2a4ff56be9d67a430c41ddde04d0d"
+    },
+    "734eb69e666bf887e9bd7628": {
+      "base_top10_ids_sha256": "4bc9fa4fc0f85f41a316de3b5461b46218aec36bf54793744f9d2f5557846710",
+      "candidate_ids_sha256": "e131dafb2d745315ca20446e8c8fd3a70684c2f212191a7cadc4a88d993f2a99",
+      "full_top10_ids_sha256": "fcc3ac48f12955b8719dc943c3c6b91058f1feba6b53ff6fa5b0816d2423aaa9"
+    },
+    "758d1bc741adf19b1a30cce6": {
+      "base_top10_ids_sha256": "8683d9af519fbe03bac17343527f2f838bbdd1b6fd5946631ab40f66b58e93bc",
+      "candidate_ids_sha256": "7f16a69f9b733e55b4d99fdfdb418aa883d63771496bc61cc7183506e55bf9cb",
+      "full_top10_ids_sha256": "4c41b96b087c2b6f57c60adbae582aa90b6e5da2efd1b8f36901ac75e94ac184"
+    },
+    "9a4624529dac4fc3c404cb18": {
+      "base_top10_ids_sha256": "c577a128af51d452a18ff97ee84bbea7d01f79922cf8a44cd59015c37a956482",
+      "candidate_ids_sha256": "4b12db595a4db64cd3d3f6b6126ee8c0ef7c8a0c8fe47c9423eb90053b523097",
+      "full_top10_ids_sha256": "5cdcae7f0c4db9097405b59f62d22ee9805982b41f08f4dfe63b1cd7bc9482af"
+    },
+    "9e957f117a24d6efaf5f1c47": {
+      "base_top10_ids_sha256": "d35ad794cc9eaf36c3edd44c4426990517eb697a0bbcfd43a475003a928a5a9e",
+      "candidate_ids_sha256": "8cba5a9984b9d29a69cc8f9910f17818185791383589c423bbc45223899a9e53",
+      "full_top10_ids_sha256": "c59807140d0e58bbd3569a55f917300ce526043507183e7c76dbd9d02c15c586"
+    },
+    "a5218c82cd75d679717a3c67": {
+      "base_top10_ids_sha256": "4563563a4fd6cfe44a0aecd3305618e98d20cd645d26586a24e7a7844cb30501",
+      "candidate_ids_sha256": "17334763335df36ea6d60c9578ac2f6773acf882dfd2d5ab3081b1e41eaeaca2",
+      "full_top10_ids_sha256": "4563563a4fd6cfe44a0aecd3305618e98d20cd645d26586a24e7a7844cb30501"
+    },
+    "aa333d7440cc14104cd2bbba": {
+      "base_top10_ids_sha256": "cec774750539b4482508907e4efee5eb16edcae0ad286db37fa810bf534be3c3",
+      "candidate_ids_sha256": "7c36d002658a942d6eb8fd0acfb28a1e48536f3719de218b251ae890d8428819",
+      "full_top10_ids_sha256": "ff2a3cdae94d6b7ea47d7d7ef238fdfe984dd74a3eeb32614686848853a9e910"
+    },
+    "bee1b0827ddb51e6174ad98f": {
+      "base_top10_ids_sha256": "c2eab4ca888a26dcfa46475ff9f4e25b14005671e57247cadd97e6614f924929",
+      "candidate_ids_sha256": "a6d92ac0748aead2b5c63145014d4e373e3d619722e216eb9f6f8f631bebbe48",
+      "full_top10_ids_sha256": "c2eab4ca888a26dcfa46475ff9f4e25b14005671e57247cadd97e6614f924929"
+    },
+    "d5dbb3839b764f352dd3a53f": {
+      "base_top10_ids_sha256": "ee901164db5d9b0c02028c2acb41e7a6bfcf70b23c674042456820e44fd6668b",
+      "candidate_ids_sha256": "afd0cc0c6edc0a47eb4228639e0086f560bce6b83ac122ee5e6e35f5addb63af",
+      "full_top10_ids_sha256": "3d500a660df30be0f674a488ed4f9d514c98a4c21148cc0d3276f6f2bcf828b5"
+    },
+    "d67288787865cb225e273faa": {
+      "base_top10_ids_sha256": "540e1a0498a58b92cd0b0819f2e29f2e1bfeb57ee9c023ef186fc517ae8dc085",
+      "candidate_ids_sha256": "99e181f3afff334d4908d5d19ac6b587365e24d06086f27a3db82a3c6d2569f9",
+      "full_top10_ids_sha256": "540e1a0498a58b92cd0b0819f2e29f2e1bfeb57ee9c023ef186fc517ae8dc085"
+    },
+    "df3447de2445c0d79422ac70": {
+      "base_top10_ids_sha256": "b7cde8258c84a8e37d1c1fd9d10853205dc2d346bb6f6368ffd17d91eb224767",
+      "candidate_ids_sha256": "ae1933b099a1f6882dc4926f504f6523d42a764ac74f9d1ad1bc02f882d1c4f2",
+      "full_top10_ids_sha256": "b7cde8258c84a8e37d1c1fd9d10853205dc2d346bb6f6368ffd17d91eb224767"
+    },
+    "e7f00ee795ab81136f42ead5": {
+      "base_top10_ids_sha256": "f4504634318606d9296c969de99e6facabb25477df1f6d92d36ab7d2fa9a3b51",
+      "candidate_ids_sha256": "7bd3a48a0dc6e9c455f8f7933834b006b666c203a7aa2d247bd1dc607f3b4ab1",
+      "full_top10_ids_sha256": "125e6937fa84e207212595e553fa655a1c0bede2e357c4b4117612af7a2491e4"
+    },
+    "e88b2a5d53d18c3db1fd9962": {
+      "base_top10_ids_sha256": "8e770cfe463dc873993fc031d0f1cd7496f15f693611bf0eaece867c0e16db6d",
+      "candidate_ids_sha256": "232a7ad1537a9b04af490600d7c6e63cdaee26a59fac2af08eccc2ad3a5bebd8",
+      "full_top10_ids_sha256": "8e770cfe463dc873993fc031d0f1cd7496f15f693611bf0eaece867c0e16db6d"
+    },
+    "e930ad88936e54c93d838a12": {
+      "base_top10_ids_sha256": "b052f1abda498f3df57821ce4e273ef64d16dfe88dd4cd18e3434db1208b2213",
+      "candidate_ids_sha256": "78e97eec19a9202ada8c58f77c4372afacbbcbcffd0538392e141aaeac046713",
+      "full_top10_ids_sha256": "b052f1abda498f3df57821ce4e273ef64d16dfe88dd4cd18e3434db1208b2213"
+    },
+    "e98285c2a7f7fb4a46c092b5": {
+      "base_top10_ids_sha256": "6fcd432debb12827af3e5834dbecae672dbf701d22dfd7522eafccc230a362bb",
+      "candidate_ids_sha256": "9ecce6abfbc053dfd30ae49438c0d4c8f5eec59b76895841afadac0083d24fce",
+      "full_top10_ids_sha256": "6fcd432debb12827af3e5834dbecae672dbf701d22dfd7522eafccc230a362bb"
+    },
+    "ed3213072a3050bc8a08df7b": {
+      "base_top10_ids_sha256": "8496957aa3a458f4679e9a29a94ef0c86b95019dc0f771b9aa1d98695bb1676e",
+      "candidate_ids_sha256": "c3e48c44485a4e735a8c65fef6487f98536ce413f740109419409e17de9487f9",
+      "full_top10_ids_sha256": "0147b5b82901838e42aff52e3bae1167de4d97df193b4fd516f5e86f3f8f5596"
+    },
+    "f3a59f5e810cd1881912f136": {
+      "base_top10_ids_sha256": "ae2f3dc82d5d23a27498145a0634de2250110937dae6ac73b0147a8a38c4248e",
+      "candidate_ids_sha256": "63e806a929fec5f0d952747782bbd4531d15c147dd31ca52b97af897730bb833",
+      "full_top10_ids_sha256": "0519a68e070154f0d2d7ab6ce483b53f656710556154e0bd6eca631017b5a310"
+    },
+    "f7624944d8ca280e843485ef": {
+      "base_top10_ids_sha256": "516c2b403c1b09e4fe6498c6e4f2814daaa4d392cb894675a9779307a9c42f9a",
+      "candidate_ids_sha256": "6a089e48600bce8c9c4865cded7da5234e4ed2c0aae8c9ea8cdc571bed85e655",
+      "full_top10_ids_sha256": "f9e0c88033704ef22562d6eda0697755c92b02b32e33f45395c777a056b5fd5c"
+    },
+    "f86105e4351ab8d43b2ee618": {
+      "base_top10_ids_sha256": "582f4ff86f3593eda66d05dd987165c2d3026e0a5cf78cecf0f0f5805ce87b1c",
+      "candidate_ids_sha256": "9280cd931550fc61d4c1b7109d71b2b6825cce47dc961a387865f3d815f50db3",
+      "full_top10_ids_sha256": "582f4ff86f3593eda66d05dd987165c2d3026e0a5cf78cecf0f0f5805ce87b1c"
+    },
+    "f8f60c5f543222c81ac1fb2d": {
+      "base_top10_ids_sha256": "839dd42a029a31aa10b70c3c7ebf84df6822f440ac39da4eeb710a4990bf494d",
+      "candidate_ids_sha256": "11947aa0e01aafd2f5a7d3e524f026490b1d74d34fa901de99051a43c8fa4149",
+      "full_top10_ids_sha256": "7ed5bc81c14dabad92a4fcee9089d82eae5865ca98b5a7dc4c1a27594f33c9ad"
+    },
+    "fc6dd729fd5429f0855ac17c": {
+      "base_top10_ids_sha256": "fb4cd89b5e60668001125578d87362c56bab800e443992cc052562772f0e1039",
+      "candidate_ids_sha256": "8d93590efa29aff92ef3eacf5314425d97167e6af099d5b11b3fc343b179dc22",
+      "full_top10_ids_sha256": "1736d0529db039248e6363a23f7a88319062f00060881484721ebcfdf910d876"
+    }
+  },
+  "serialization": "UTF-8; ordered IDs joined by LF, followed by one final LF; no BOM or CR",
+  "source_sha256": "561ef52730e0e596e10de0c3953b458235695e1e29dc06dd7757e379143bb941"
+}

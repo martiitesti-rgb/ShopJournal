@@ -31,7 +31,7 @@ CUE_PRODUCT_TERMS = {
     "gift": ["gift", "gift set", "gift box"],
 }
 
-def cueScore(cue_flags, product_title, product_price, budget_threshold=10.0):
+def cueScore(cue_flags, product_title, product_price, compound=0.0, budget_threshold=10.0):
     title_lower = product_title.lower()
     # creo una lista di cue attivi
     active_cues = []
@@ -52,7 +52,10 @@ def cueScore(cue_flags, product_title, product_price, budget_threshold=10.0):
             if any(term in title_lower for term in CUE_PRODUCT_TERMS[cue]):
                 points += 1
 
-    return points / len(active_cues)  
+    base_score = points / len(active_cues)
+    # l'intensità affettiva (positiva o negativa) rafforza il peso del segnale cue
+    affect_weight = 1 + abs(compound)
+    return base_score * affect_weight  
 
 def popularityScore(avg_rating):
     if avg_rating is None:
@@ -96,7 +99,6 @@ from nltk.sentiment.vader import SentimentIntensityAnalyzer
 
 analyzer = SentimentIntensityAnalyzer()
 
-#copia esatta di quella presente nel file extracting_cues.ipynb
 def extract_cues(query, notes):
     combined_text = f"{query} {notes}".strip().lower()
     if not combined_text:
@@ -156,7 +158,7 @@ def score_query(query_id, query_text, note, df, flags):
         scores = {
             "query": matchQuery(query_words, title),
             "notes": matchNotes(note_terms, title),
-            "cue": cueScore(cue_flags, title, price),
+            "cue": cueScore(cue_flags, title, price, compound=compound),
             "popularity": popularityScore(avg_rating),
         }
         

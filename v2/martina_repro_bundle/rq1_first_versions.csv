@@ -1,0 +1,41 @@
+opaque_slot_id;Query;top_subcategories;intended_semantic_cue_assignment;explicit_numeric_budget_required
+37d6ecfb716183fa30111206;My mom wants some organic granola bars, “no sugar!” she said;"[""Pantry Staples"",""Snacks & Sweets"",""Beverages""]";DIET;false
+3c555d99633f4837cd9a7255;I need some plant-based hamburger for my vegan friend;"[""Produce"",""Dairy, Eggs & Plant-Based Alternatives"",""Meat & Seafood""]";DIET;false
+9e957f117a24d6efaf5f1c47;Give me some sugar-free biscuits, preferably vegan ;"[""Beverages"",""Pantry Staples"",""Snacks & Sweets""]";DIET;false
+5d064537386df97f3f5488a4;I need some frozen grilled veggies, must be salt free;"[""Dairy, Eggs & Plant-Based Alternatives"",""Pantry Staples"",""Frozen""]";DIET;false
+1246fec471b0825b640c5d9e;I want some fat-free and salt free bread to follow my keto diet;"[""Snacks & Sweets"",""Pantry Staples"",""Breads & Bakery""]";DIET;false
+138c6e993ca6447d1f4dbf00;The only thing I’m looking in a gluten free cake is white chocolate;"[""Snacks & Sweets"",""Breads & Bakery"",""Grocery Prime Day 2017""]";DIET;false
+5f8091bf863788569e4b3293;i’m searching for a gift box for my friend’s birthday;"[""Beverages"",""Food & Beverage Gifts"",""Pantry Staples""]";GIFT;false
+734eb69e666bf887e9bd7628;I want some beer and soda to bring to a Christmas party, hope they have it;"[""Beverages"",""Pantry Staples""]";GIFT;false
+573cf47f472be6b92c9b19ce;i’m looking for a birthday cake, must contain chocolate chips I really like them;"[""Pantry Staples"",""Beverages"",""Snacks & Sweets""]";GIFT;false
+50e5127cdad11edf2b1926c8;My nieces really like candy and sweets, so I’ll bring some as a gift;"[""Pantry Staples"",""Snacks & Sweets""]";GIFT;false
+0c2465f8811c758568bf4495;i’m looking for some sugar sprinkles to add to a cake;"[""Beverages"",""Pantry Staples"",""Snacks & Sweets""]";GIFT;false
+9a4624529dac4fc3c404cb18;I need some ice cream for a kids birthday party;"[""Snacks & Sweets"",""Beverages"",""Frozen""]";GIFT;false
+f3a59f5e810cd1881912f136;Looking for some instant family pack pizza asap;"[""Pantry Staples"",""Beverages"",""Food & Beverage Gifts""]";URGENCY;false
+aa333d7440cc14104cd2bbba;Something with chicken would be perfect for dinner tonight, a pepperoni one would be perfect;"[""Pantry Staples"",""Beverages"",""Grocery""]";URGENCY;false
+e930ad88936e54c93d838a12;I’m looking for some pizza that I can bring to work tomorrow;"[""Pantry Staples"",""Snacks & Sweets"",""Breads & Bakery""]";URGENCY;false
+1f3d5e3795433644890691fe;A cake  would be perfect for tonight, need to hurry;"[""Pantry Staples"",""Beverages"",""Breads & Bakery""]";URGENCY;false
+0924ae00af39a5468e541134;i’m looking for instant Indian food, preferably spicy;"[""Beverages"",""Dairy, Eggs & Plant-Based Alternatives"",""Deli & Prepared Foods""]";URGENCY;false
+f7624944d8ca280e843485ef;Now it’s the perfect time for  some chips and pretzels;"[""Pantry Staples"",""Produce"",""Snacks & Sweets""]";URGENCY;false
+bee1b0827ddb51e6174ad98f;i'm looking for some pancakes, preferably under 5$;"[""Pantry Staples"",""Beverages"",""Breakfast Foods""]";BUDGET;true
+2dfeffeafe2bdedc57adb620;I need a bottle of dry  prosecco, must be under 30$;"[""Pantry Staples"",""Beverages"",""Grocery""]";BUDGET;true
+f8f60c5f543222c81ac1fb2d;Looking for some economic protein bars that are less than 8$;"[""Snacks & Sweets""]";BUDGET;true
+e7f00ee795ab81136f42ead5;Some canned tuna I hope to find it for under 10$;"[""Beverages"",""Pantry Staples"",""Grocery""]";BUDGET;true
+a5218c82cd75d679717a3c67;I want a can of blonde beer that is under 3$;"[""Pantry Staples"",""Beverages""]";BUDGET;true
+d5dbb3839b764f352dd3a53f;I would like some cheap chocolate cookies I want to spend only 3$ max;"[""Beverages"",""Snacks & Sweets"",""Pantry Staples""]";BUDGET;true
+3c3102a8e2a8dceb17e00206;I want to gift a gluten free strawberry cake to my friend, hope she likes it;"[""Beverages"",""Breads & Bakery"",""Pantry Staples""]";DIET+GIFT;false
+758d1bc741adf19b1a30cce6;I need urgently some canned beer, must be gluten free;"[""Snacks & Sweets"",""Beverages"",""Grocery""]";DIET+URGENCY;false
+ed3213072a3050bc8a08df7b;Looking for some plant based sliced meat for my dinner, preferably under 15 $;"[""Pantry Staples"",""Grocery""]";DIET+BUDGET;true
+6166ec1f8450db338eb2d8d2;thinking about grabbing something for the party tonight, nothing fancy;"[""Pantry Staples"",""Breakfast Foods"",""Produce""]";GIFT+URGENCY;false
+fc6dd729fd5429f0855ac17c;I’m looking for some frozen yogurt to bring to a kids party, must be under 10$;"[""Pantry Staples"",""Breads & Bakery"",""Frozen""]";GIFT+BUDGET;true
+212276152123b7c9d90f06d7;In need of instant chicken soup, must be under 2$, we are on a budget here;"[""Beverages"",""Breakfast Foods"",""Grocery""]";URGENCY+BUDGET;true
+365205560e711ea95fc43479;My mum asked me to buy some chocolate chip cookies ;"[""Pantry Staples"",""Snacks & Sweets""]";CUE_FREE;false
+f86105e4351ab8d43b2ee618;My friends asked me to bring some aromatic liqueurs to her house;"[""Pantry Staples"",""Produce"",""Beverages""]";CUE_FREE;false
+5d424b2a6c13bbcd1eaa50cc;Looking for some ground coffee beans, I can’t live without it;"[""Breakfast Foods"",""Snacks & Sweets"",""Beverages""]";CUE_FREE;false
+e88b2a5d53d18c3db1fd9962;I want frozen pancakes, must contain chocolate;"[""Frozen"",""Snacks & Sweets"",""Produce""]";CUE_FREE;false
+075e88abf543a0f897582d82;I would love some yogurt and cereals for breakfast;"[""Breads & Bakery"",""Pantry Staples"",""Breakfast Foods""]";CUE_FREE;false
+d67288787865cb225e273faa;In need of strawberry milk for my sister;"[""Pantry Staples"",""Snacks & Sweets"",""Beverages""]";CUE_FREE;false
+e98285c2a7f7fb4a46c092b5;I’m looking for some sweet almond milk;"[""Beverages"",""Snacks & Sweets""]";CUE_FREE;false
+1cbaa393ca4480e5ca850af7;Looking for white chocolate granola bars for a snack;"[""Pantry Staples"",""Snacks & Sweets"",""Beverages""]";CUE_FREE;false
+556aadf68d918863525b38d9;i’m looking for a sweet snack, must contain strawberry;"[""Pantry Staples"",""Snacks & Sweets""]";CUE_FREE;false
+df3447de2445c0d79422ac70;i’m craving something different for dinner, seitan would be perfect for a new recipe;"[""Pantry Staples"",""Beverages"",""Meat Substitutes""]";CUE_FREE;false

@@ -1,0 +1,83 @@
+{
+  "assembly_checks": {
+    "canonical_generation_count": 301385,
+    "canonical_query_count": 40,
+    "canonical_retrieval_count": 301889,
+    "generation_retrieval_overlap": 0,
+    "judgment_rule_matches_frozen": 313,
+    "official_query_signatures": 40,
+    "query_fields_preserved_exactly": true,
+    "retrieval_sorted_unique": true,
+    "selected_20_matches_frozen": true,
+    "selected_note_projections_verified": 40
+  },
+  "branch": "final-eval-redesign-v1",
+  "file_sha256": {
+    "expected_ranking_signatures.json": "f460a43a99da8388351613aabc4e38e1e873885446f9d8175a056a1cf0423fb5",
+    "expected_v2_selection.json": "67b49491a0589b25c6cdd8c763de28d0439166ab1714290a5285dd3b1da2fe93",
+    "final_evaluation/__init__.py": "6b6d98c78fe1648e24250e364da66818d855593060882bf9088cc2c21a59fa90",
+    "final_evaluation/cues.py": "b3db6382d1ec232a99583fac821ba1d79384cb04107f13077490bf6ba81f9251",
+    "final_evaluation/lexical.py": "8c8843747a436d897209e3e5dd3b1eca0a3f4cfd1c9b51c9d8fe4221ea1b711e",
+    "final_evaluation/scoring.py": "48d2f97150527b8d6b381e80cec7bf3c990c20f8716ec3ecc6649e3a33193818",
+    "requirements.txt": "e77e7045d01a9431264f9262c6b199d8e7988c139276a5266a3cf689588ad66e",
+    "retrieval_parent_asins.txt": "da7cfa28541f6f646095c94b2e8f85828fbcb33f0694f8ea30cc7efbc91fbe26",
+    "rq2_evaluation_v2_amendment.md": "78befd1e8da9b2b2b7cc1023b3b56664a6c141bc4c0fe56330db865c156720da",
+    "rq2_final_queries.csv": "ab0b853ff6bf420250b2f16fda56bf1925b53d8eac466e793863e17f611151f4",
+    "rq2_note_inputs.json": "aa15498967fa1793697db98fdc24aced00e0eef4fccd91516d15c73c5118df59",
+    "rq2_v2_result_v1.json": "1d89ee28988dde5cc39c7163b2d4a412ee648793a63ceab3748d3a53d5a50f8f"
+  },
+  "head": "d3107c78013bfe33d9f0e267daeb7cd4702f20ac",
+  "private_student_research_asset": true,
+  "repository": "ghasempouri1984/ShopJournal-final-eval-redesign",
+  "schema": "martina-rq2-final-v2-end-to-end-v1",
+  "sources": {
+    "amazon_metadata": {
+      "byte_size": 1382105675,
+      "dataset_repository": "McAuley-Lab/Amazon-Reviews-2023",
+      "path": "raw/meta_categories/meta_Grocery_and_Gourmet_Food.jsonl",
+      "revision": "2b6d039ed471f2ba5fd2acb718bf33b0a7e5598e",
+      "sha256": "ed9b24ea707f7010b5cb321462a8e896ad1fcd59620fbc55f05084c3da59842e"
+    },
+    "canonical_notes": {
+      "byte_size": 246107,
+      "git_blob_oid_sha1": "334724c7b8fec83bb3ed8fb46e4a95de888b6803",
+      "path": "data/notes/ggf_notes_v0.1.jsonl",
+      "ref": "27cc8a0755c0ff56301fc448e2357060100085f8",
+      "repository": "ghasempouri1984/ShopJournal-Master",
+      "sha256": "020fc966474b530d91d0d3a297946169eb464c400a549738e8e670a23d8c4051"
+    },
+    "official_rankings": {
+      "sha256": "561ef52730e0e596e10de0c3953b458235695e1e29dc06dd7757e379143bb941"
+    },
+    "partition_manifest": {
+      "byte_size": 12068262,
+      "git_blob_oid_sha1": "4c8637c6d4c2986ba1bd584e61080c7903c6bdfe",
+      "path": "data/partition/ggf_partition_manifest_20260530.json",
+      "ref": "27cc8a0755c0ff56301fc448e2357060100085f8",
+      "repository": "ghasempouri1984/ShopJournal-Master",
+      "retrieval_list_sha256": "da7cfa28541f6f646095c94b2e8f85828fbcb33f0694f8ea30cc7efbc91fbe26",
+      "sha256": "3f0feb06d9d1c4e9ffe3bc98ed3333ff1fc7c2f05dbbe00681d06c006fcaec57"
+    },
+    "private_query_freeze": {
+      "sha256": "de9a27268bf0a8b67a8a1639a1393ddac5aa632f1b8985816c65616b2b70f420"
+    },
+    "query_set": {
+      "path": "work/final_evaluation_v1/rq2_final_queries_private.csv",
+      "projection": "four requested columns; exact field strings; comma CSV with LF",
+      "sha256": "103772fdaded03c99a35d5227222aeb1d087eeb1ed46f978b939a71bd53b9986"
+    },
+    "selected_note_pairings": {
+      "sha256": "633f2513e891c734bf81d20fb7aff833e732678a713e1b4f7234158fba11bf04"
+    },
+    "v2_analysis_controller": {
+      "path": "final_evaluation/run_rq2_v2.py",
+      "sha256": "13719de54e1b75a880e21fb78c20c92d638cf35bc38c4122770139a9860bbeea"
+    },
+    "v2_judgment_mapping": {
+      "sha256": "0b90c4ee65933790b2fe00686d1babab276e4cb4ba48f74c00453ae50058bda8"
+    },
+    "v2_selection": {
+      "sha256": "35e7c5324f22c4bb50d0ba966df75050900654f5b4bbcf006d0616635d384fcf"
+    }
+  }
+}

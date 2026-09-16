@@ -41,7 +41,8 @@ def recall_at_10(labels_top10, query_id, qrels_lookup):
 def dcg(labels):
     somma = 0.0
     for posizione, label in enumerate(labels, start=1):
-        somma += (label / math.log2(posizione + 1))
+        gain = 2**label - 1
+        somma += (gain / math.log2(posizione + 1))
     return somma
 
 def ndcg_at_10(labels_top10, query_id, qrels_lookup):

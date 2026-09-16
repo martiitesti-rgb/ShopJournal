@@ -1,0 +1,84 @@
+{
+  "blocker_class": null,
+  "boundaries": {
+    "base_full_rankings_run_or_accessed": false,
+    "bm25_run": false,
+    "extractor_or_scientific_settings_changed": false,
+    "historical_rankings_or_metric_results_accessed": false,
+    "qrels_or_relevance_labels_accessed": false,
+    "retrieval_candidates_generated_or_accessed": false,
+    "rq2_ranking_metrics_computed": false
+  },
+  "branch": "final-eval-redesign-v1",
+  "command": "conda run -n npz_analysis python -B -m final_evaluation.run_rq1_v1 --execute",
+  "counts": {
+    "authoring_admission_failed": 5,
+    "authoring_admission_passed": 35,
+    "authoring_failure_proportion": 0.125,
+    "total": 40
+  },
+  "environment": "npz_analysis",
+  "extractor_calls": {
+    "rq1_original_first_versions": 40,
+    "rq2_semantic_versions": 40
+  },
+  "input_sha256": {
+    "rq1_first_versions.csv": "d9e36e3bfa9606e8dc0985a0928ce4e53d15c75b7812419384e9278636ecd34d",
+    "rq2_semantic_versions.csv": "29ed2786759f597c3763c0f083717e2a0dbda659790c8400bb7ba886dca316c0"
+  },
+  "pre_run_binding_correction": {
+    "only_authorized_restoration_bytes_changed": true,
+    "original_rq1_bytes_unchanged": true,
+    "query_count": 1,
+    "received_bytes_preserved": true
+  },
+  "private_artifact_sha256": {
+    "rq1_authorization_private.json": "823c7e3c381363af7947b29f95432271f72c70a195e2e82c63fb7cfb7a3e334e",
+    "rq1_execution_private.jsonl": "e6c9b8478a18fbf0a167c12b078d0e6104164eabd69b94b0311e82e9b1977e26",
+    "rq1_extractor_rows_private.csv": "6fd72cebb11afdae0619604556f9e42f6c45b07ccb9e16bd40d2e6aba2010ac5",
+    "rq1_input_binding_blocker_v1.json": "32905537b1f8faa1902b2d4fcfd3574524872a5c26e78e8773e38476d2ec2ee3",
+    "rq1_metrics_frozen_private.json": "31f0c571f8f762dc6a27071ffda7f37d2627c823e48bb6124abb3a94b969e419",
+    "rq1_sealed_inputs.json": "a50c29b77052dde89632bfd2d13dc7bfd7c76eef9b026360066788803cf05816",
+    "rq2_admission_private.csv": "5e934776baa00ac60b3a55c8d5265adf61304452ade81c7f67fc85d98b8301cf",
+    "rq2_semantic_versions.received_before_binding_correction.csv": "c4669912042cd1527ec5f3fec8c8f499da7643ff4cde4820c6e025ac049a6996"
+  },
+  "python": "3.11.15",
+  "received_rq2_sha256": "c4669912042cd1527ec5f3fec8c8f499da7643ff4cde4820c6e025ac049a6996",
+  "repository_sha": "ec0bdbe4949cd157af8162924255eed46e1496e1",
+  "rq1_frozen_before_rq2": true,
+  "rq1_result_sha256": "3d6ea1652e9e9245778100409bd2e7667029bc7d51b419b41ad71751535816d0",
+  "rq2_admission": {
+    "admitted": 24,
+    "included_in_rq1_metrics": false,
+    "revision_required": 16,
+    "revision_required_opaque_ids": [
+      "5d064537386df97f3f5488a4",
+      "f3a59f5e810cd1881912f136",
+      "aa333d7440cc14104cd2bbba",
+      "1f3d5e3795433644890691fe",
+      "0924ae00af39a5468e541134",
+      "bee1b0827ddb51e6174ad98f",
+      "2dfeffeafe2bdedc57adb620",
+      "f8f60c5f543222c81ac1fb2d",
+      "e7f00ee795ab81136f42ead5",
+      "a5218c82cd75d679717a3c67",
+      "d5dbb3839b764f352dd3a53f",
+      "758d1bc741adf19b1a30cce6",
+      "ed3213072a3050bc8a08df7b",
+      "6166ec1f8450db338eb2d8d2",
+      "fc6dd729fd5429f0855ac17c",
+      "212276152123b7c9d90f06d7"
+    ],
+    "rule": "Detected cue set equals intended cue set, and an executable numeric budget exists whenever explicit_numeric_budget_required is true."
+  },
+  "schema_version": "1.0",
+  "source_sha256": {
+    "__init__.py": "6b6d98c78fe1648e24250e364da66818d855593060882bf9088cc2c21a59fa90",
+    "cues.py": "b3db6382d1ec232a99583fac821ba1d79384cb04107f13077490bf6ba81f9251",
+    "final_evaluation_system_spec_v1.0.md": "4729bbc611c0c2e6b882e92431d237619e46df3436521a358f4a92d45a48d6bb",
+    "lexical.py": "8c8843747a436d897209e3e5dd3b1eca0a3f4cfd1c9b51c9d8fe4221ea1b711e",
+    "run_rq1_v1.py": "b12c045bf1d5cf6431d9cbbb73935c531c463af55e52508dfd9fda480634d669"
+  },
+  "status": "completed",
+  "third_party_python_dependencies": []
+}

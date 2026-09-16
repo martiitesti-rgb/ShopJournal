@@ -4,7 +4,7 @@ This report describes a mechanical pool-preparation step only.
 
 - qrels_v1 path: `qrels_v1.csv`
 - candidate input path: `system_candidates.csv`
-- output directory: `second_round_output`
+- output directory: `/Users/martitesti/Desktop/uni/tesi/ShopJournal/evaluation_test/fase3.2/prov`
 - qrels row count: **450**
 - candidate row count: **600**
 - already-labelled candidate count: **409**

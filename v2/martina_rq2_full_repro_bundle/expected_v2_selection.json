@@ -1,0 +1,105 @@
+{
+  "selected": [
+    {
+      "opaque_slot_id": "9e957f117a24d6efaf5f1c47",
+      "selection_sha256": "0fa09d66f2d838522ad0244da4a5d2d618b04123c8ebfd78fdec9a49f0020595",
+      "stratum": "DIET"
+    },
+    {
+      "opaque_slot_id": "5d064537386df97f3f5488a4",
+      "selection_sha256": "488dcb66a2cd9f6bef33b81c48f90823ff430c392dc8eefcf83ed34bd25f8f97",
+      "stratum": "DIET"
+    },
+    {
+      "opaque_slot_id": "3c555d99633f4837cd9a7255",
+      "selection_sha256": "52bcf9e5e787f2096e3d665c465829652170dd6d43212ad9e8b562f08b612566",
+      "stratum": "DIET"
+    },
+    {
+      "opaque_slot_id": "37d6ecfb716183fa30111206",
+      "selection_sha256": "68a892a13bac98c5aa8dbc81625c8b76352863013b149b136d5ceb0d644640e8",
+      "stratum": "DIET"
+    },
+    {
+      "opaque_slot_id": "50e5127cdad11edf2b1926c8",
+      "selection_sha256": "2d6c1ea3569e65efd3106590798ca1dc9393d3a487d8d0c49a5683e83e6c9eb5",
+      "stratum": "GIFT"
+    },
+    {
+      "opaque_slot_id": "573cf47f472be6b92c9b19ce",
+      "selection_sha256": "6fd46548ac648b939ead362b920183e3b2f2ce1414181db0708224ee34e646bc",
+      "stratum": "GIFT"
+    },
+    {
+      "opaque_slot_id": "734eb69e666bf887e9bd7628",
+      "selection_sha256": "75cc133b110bab705cfb900273229962c2db83d53e02b6abb65b34159e22a24e",
+      "stratum": "GIFT"
+    },
+    {
+      "opaque_slot_id": "9a4624529dac4fc3c404cb18",
+      "selection_sha256": "914549683d75bd2026c5bc0854d5fb6eb836a24cda67c1e4880371e413fbf521",
+      "stratum": "GIFT"
+    },
+    {
+      "opaque_slot_id": "1f3d5e3795433644890691fe",
+      "selection_sha256": "6424d34cc4394ab55525272b42b108f8f6df14c27eb88bcb07273a8b4e44eff5",
+      "stratum": "URGENCY"
+    },
+    {
+      "opaque_slot_id": "e930ad88936e54c93d838a12",
+      "selection_sha256": "cd89ce610a26a9cf12b4bec68b0b41cb26d3cbfea7579d586043369e5bfc6bd4",
+      "stratum": "URGENCY"
+    },
+    {
+      "opaque_slot_id": "0924ae00af39a5468e541134",
+      "selection_sha256": "e6fd0e37e0dc362bcff00d26a23207207532ef23a1742b8472e498de76fd50ef",
+      "stratum": "URGENCY"
+    },
+    {
+      "opaque_slot_id": "aa333d7440cc14104cd2bbba",
+      "selection_sha256": "f67da46b5c2a5f3ecd073d65af72be18e5f13ad8f86bb8b1c83857682265779b",
+      "stratum": "URGENCY"
+    },
+    {
+      "opaque_slot_id": "bee1b0827ddb51e6174ad98f",
+      "selection_sha256": "283d7d84ac1a6afcd8cce0ac1af86d2a624a2e4b18eaca2aa5377033dad04bd0",
+      "stratum": "BUDGET"
+    },
+    {
+      "opaque_slot_id": "f8f60c5f543222c81ac1fb2d",
+      "selection_sha256": "3a3b01d7515499a3d39380d61787d0b3785f229739ed52b941f555f50e44a2aa",
+      "stratum": "BUDGET"
+    },
+    {
+      "opaque_slot_id": "e7f00ee795ab81136f42ead5",
+      "selection_sha256": "3c1fa3713015102c00ad4de7f93f8de551d3bbc4a150c249769a28af5896fae3",
+      "stratum": "BUDGET"
+    },
+    {
+      "opaque_slot_id": "a5218c82cd75d679717a3c67",
+      "selection_sha256": "50b32fc1bcf986e2e71cc94f623ad22d2d8283ecd78c0d31d22650ea12e944b2",
+      "stratum": "BUDGET"
+    },
+    {
+      "opaque_slot_id": "3c3102a8e2a8dceb17e00206",
+      "selection_sha256": "03659d5f277715c18ad92bb14a98a861714d43ec93049c9e337ba718c13002f2",
+      "stratum": "dual"
+    },
+    {
+      "opaque_slot_id": "212276152123b7c9d90f06d7",
+      "selection_sha256": "1c2be117b99c9ab2d9207ec438054fb7144bd01339f1d86a8119cb65f8179b74",
+      "stratum": "dual"
+    },
+    {
+      "opaque_slot_id": "6166ec1f8450db338eb2d8d2",
+      "selection_sha256": "542dda2c26db5a6a4199f6c55ac0fca9bbc674e7695bd626414af3f67e7514b1",
+      "stratum": "dual"
+    },
+    {
+      "opaque_slot_id": "ed3213072a3050bc8a08df7b",
+      "selection_sha256": "bd9773a8d3b19080179fbd2bd03703057308e38bb8d0a7b880d2d8aafd579315",
+      "stratum": "dual"
+    }
+  ],
+  "source_sha256": "35e7c5324f22c4bb50d0ba966df75050900654f5b4bbcf006d0616635d384fcf"
+}
