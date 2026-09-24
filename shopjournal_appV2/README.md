@@ -5,7 +5,7 @@ The user types a natural-language query. The system combines it with the note ge
 
 ## Running the app
 
-Requires Python 3.10 or later. From the `shopjournal_app` folder:
+Requires Python 3.10 or later. From the `shopjournal_appV2` folder:
 
 ```bash
 python3 -m venv .venv
