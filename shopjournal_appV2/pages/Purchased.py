@@ -7,6 +7,11 @@ from db.models import (
 )
 
 st.set_page_config(page_title="Purchased History ShopJournal", layout="wide")
+
+st.markdown(
+    "<style>[data-testid='stStatusWidget'] {visibility: hidden;}</style>",
+    unsafe_allow_html=True,
+)
 st.title("Purchased History")
 
 

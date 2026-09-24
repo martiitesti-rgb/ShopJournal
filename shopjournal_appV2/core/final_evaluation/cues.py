@@ -168,12 +168,10 @@ def _expression_matches(doc: LexicalText, expressions):
 
 
 def extract_cues(query: str) -> CueExtraction:
-    #1
     validate_query_contractions(query)
     doc = tokenize(query)
     budget = parse_budget(query)
     detected, properties, matches = set(), set(), []
-    #2
     for category, expressions in CUE_EXPRESSIONS.items():
         for expression, start, end, blocked in _expression_matches(doc, expressions):
             matches.append(CueMatch(category, expression, doc.spans[start][0], doc.spans[end - 1][1],
@@ -184,7 +182,6 @@ def extract_cues(query: str) -> CueExtraction:
                     prop = DIET_ALIASES.get(expression, expression)
                     if prop in DIET_PROPERTIES:
                         properties.add(prop)
-    #3
     for bound in budget.bounds:
         matches.append(CueMatch("BUDGET", bound.expression, bound.start, bound.end, False))
         detected.add("BUDGET")

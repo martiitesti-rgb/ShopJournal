@@ -194,6 +194,7 @@ def query_units(doc: LexicalText, excluded_spans: tuple[tuple[int, int], ...] = 
 
 
 def note_only_tokens(distinctive_terms, query: LexicalText) -> tuple[str, ...]:
+    """Project frozen term/count pairs or term strings; counts never weight coverage."""
     if isinstance(distinctive_terms, str):
         raise TypeError("distinctive_terms must be a sequence or term/count mapping.")
     terms = distinctive_terms.keys() if hasattr(distinctive_terms, "keys") else distinctive_terms

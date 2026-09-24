@@ -4,6 +4,11 @@ import streamlit as st
 from db.models import register_user, verify_user
 
 st.set_page_config(page_title="Profilo",  layout="wide")
+
+st.markdown(
+    "<style>[data-testid='stStatusWidget'] {visibility: hidden;}</style>",
+    unsafe_allow_html=True,
+)
 st.title("Profile")
 
 user = st.session_state.get("user")

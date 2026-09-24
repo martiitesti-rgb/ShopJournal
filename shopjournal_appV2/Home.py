@@ -18,6 +18,11 @@ st.set_page_config(
     layout="wide",
 )
 
+st.markdown(
+    "<style>[data-testid='stStatusWidget'] {visibility: hidden;}</style>",
+    unsafe_allow_html=True,
+)
+
 init_db()
 if "user" not in st.session_state:
     st.session_state.user = None  
@@ -52,7 +57,7 @@ search=st.button("Search", type="primary")
 
 if "search_results" in st.session_state != []:
         for i, product in enumerate(st.session_state["search_results"], start=1):
-            price_str = f"{product.price:.2f}€"
+            price_str = f"{product.price:.2f}€" if product.price is not None else "prezzo non disponibile"
             st.write(f"{i}. **{product.name}** — {price_str} ")
             ok=st.button("Buy", type="secondary", key=f"buy_{product.id}")
             if ok:
