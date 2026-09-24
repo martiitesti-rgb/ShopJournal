@@ -2,4 +2,3 @@ __pycache__/
 *.pyc
 db/shopjournal.db
 .streamlit/secrets.toml
-.venv/

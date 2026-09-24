@@ -76,7 +76,8 @@ if search and query.strip():
     log_search(user["id"] if user else None, query, note is not EMPTY_NOTE, variant)
 
     try:
-        results = get_recommendations(query, note, variant=variant)
+        purchased = {row["title"] for row in get_purchase_history(user["id"])} if user else set()
+        results = get_recommendations(query, note, variant=variant, exclude_titles=purchased)
         st.session_state["search_results"] = results
         if not results:
             st.info("No products match your search.")

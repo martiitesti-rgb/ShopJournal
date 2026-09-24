@@ -39,9 +39,10 @@ def derive_note_terms(note_text: str) -> list[str]:
     return seen
 
 
-def _run_scoring(query: str, note: dict, flags: list[str]) -> dict[str, list[Product]]:
+def _run_scoring(query: str, note: dict, flags: list[str],
+                 exclude_titles=frozenset()) -> dict[str, list[Product]]:
     df = _load_catalog_cached()
-    raw_results = score_query("live", query, note, df, flags)
+    raw_results = score_query("live", query, note, df, flags, exclude_titles)
     return {
         flag: [
             Product(name=r["title"], price=r["price"], score=r["score"], id=r["asin"], category=r["category"])
@@ -56,9 +57,10 @@ def compute_all_variants(query: str, note: dict = EMPTY_NOTE) -> dict[str, list[
 
 def get_recommendations(query: str, note: dict = EMPTY_NOTE,
                          variant: str = "query_notes_pop_cue",
-                         top_k: int = 10) -> list[Product]:
+                         top_k: int = 10,
+                         exclude_titles=frozenset()) -> list[Product]:
     if variant not in VARIANTS:
         raise ValueError(f"Variante sconosciuta: {variant}. Attese: {VARIANTS}")
-    return _run_scoring(query, note, [variant])[variant][:top_k]
+    return _run_scoring(query, note, [variant], exclude_titles)[variant][:top_k]
 
 

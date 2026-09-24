@@ -57,13 +57,16 @@ def _variant_score(scored, flag):
         raise ValueError(f"Flag not found: {flag}")
 
 
-def score_query(query_id, query_text, note, df, flags):
+def score_query(query_id, query_text, note, df, flags, exclude_titles=()):
     catalog, meta = _prepare(df)
     pair = rank_pair(catalog, query_text, note["distinctive_terms"])
 
     results = {flag: [] for flag in flags}
     for scored in pair.full:
         title, raw_price, category = meta[scored.parent_asin]
+        if title in exclude_titles:
+            # prodotto gia' acquistato dall'utente: non lo riproponiamo
+            continue
         price = parse_price(raw_price)
         for flag in flags:
             results[flag].append({
